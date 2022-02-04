@@ -1,0 +1,14 @@
+---
+title: "Exercise 3"
+author: "Jeffery"
+date: "2022/2/4"
+output: html_document
+
+Exercise 3:
+  
+beauty %>%
+  summarise(no_of_female_professors=sum(female))
+
+
+no_of_female_professors
+                   195
