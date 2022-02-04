@@ -1,5 +1,0 @@
----
-title: "HomeWork1"
-author: 'Jeffery Li'
-date: "2022/2/2"
-output: html_document
