@@ -1,6 +1,0 @@
----
-title: "HW1"
-author: 'Jeffery Li'
-date: "2022/2/4"
-output: html_document
-
