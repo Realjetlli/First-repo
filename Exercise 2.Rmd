@@ -1,0 +1,8 @@
+---
+title: "Exercise 2"
+author: "Jeffery"
+date: "2022/2/4"
+output: html_document
+
+
+Exercise 2: 8 variables
