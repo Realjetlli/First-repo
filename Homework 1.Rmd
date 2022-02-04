@@ -1,6 +1,6 @@
 ---
 title: "HW1"
-author: 'Dongwei LI'
+author: 'Jeffery LI'
 date: "2022/2/4"
 output: html_document
 
