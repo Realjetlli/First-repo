@@ -1,0 +1,42 @@
+---
+title: "Exercise 3"
+author: "Jeffery"
+date: "2022/2/4"
+output: html_document
+---
+```{r}
+knitr::opts_chunk$set(
+  eval = FALSE,
+  out.width = "80%",
+  fig.asp = 0.618,
+  fig.width = 10
+)
+library(tidyverse)
+library(rosdata)
+library(ggrepel)
+```
+
+```{r}
+beauty %>%
+  summarise(no_of_female_professors=sum(female))
+```
+
+```{r}
+beauty %>% 
+  group_by(age) %>%
+  tally(sort = TRUE)
+```
+
+```{r}
+beauty %>%
+  count(female, sort = TRUE)
+```
+  
+```{r echo=TRUE}
+beauty %>% 
+  group_by(female,age) %>%
+  tally(sort = TRUE) %>%
+  arrange(age)
+```
+
+  
