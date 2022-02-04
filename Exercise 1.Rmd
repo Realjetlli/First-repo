@@ -1,0 +1,7 @@
+---
+title: "Exercises 1"
+author: "Jeffery"
+date: "2022/2/4"
+output: html_document
+
+463 observations
